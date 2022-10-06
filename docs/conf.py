@@ -17,9 +17,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = "Basic Sphinx Example Project"
-copyright = "2022, Read the Docs core team"
-author = "Read the Docs core team"
+project = "AI - Dataset Annotating and Labelling Guidelines"
+copyright = "2022"
+author = "Poly9"
 
 
 # -- General configuration ---------------------------------------------------

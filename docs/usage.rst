@@ -1,34 +1,44 @@
-Usage
-=====
+Do's and Don'ts
+===============
 
-.. _installation:
+Do's
+----
 
-Installation
-------------
+#. Annotate products which are clearly visible and recognisable.
 
-To use Lumache, first install it using pip:
+   .. image:: images/CORRECT_BOUNDING_BOX.jpg
+      :width: 600 
 
-.. code-block:: console
+#. Annotate products which have other products along with them or having other products on them, such as: 
 
-   (.venv) $ pip install lumache
+   #. Pillows on sofa, chair, bed
+   #. Lamps, bowl, vase, books, etc. on top of Tables
+   #. Blanket, comforter on bed or chaise
+   #. etc.
 
-Creating recipes
-----------------
+   .. image:: images/PRODUCT_ON.jpg
+      :width: 600 
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
+Don'ts
+------
 
-.. autofunction:: lumache.get_random_ingredients
+#. Do not annotate products which are not completely visible in image or may not be present in the catalogue.
 
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
+   .. image:: images/NOT_COMPLETELY_VISIBLE.jpg
+      :width: 600
 
-.. autoexception:: lumache.InvalidKindError
+#. Do not annotate products which are obscured or have other objects/products blocking that product which makes the product hardly recognisable like below example:
 
-For example:
+   .. image:: images/INCORRECT_BOUNDING_BOX_OBSCURED_PRODUCTS.jpg
+      :width: 600
 
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
+#. Top view images are to be excluded from the dataset. Do not include images which contain top view of products, unless those type of products are present in the catalogue. (Refer example below)
 
+   .. image:: images/TOP_VIEW_IMAGE_TO_EXCLUDE.jpg
+      :width: 600
+
+
+
+
+
+.
