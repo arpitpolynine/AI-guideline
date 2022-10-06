@@ -14,12 +14,12 @@ This section includes guidelines to follow to make a decision on which products 
 
 #. **Annotate** products which are clearly visible and recognisable.
    
-   .. image:: CORRECT_BOUNDING_BOX.jpg
+   .. image:: docs/images/CORRECT_BOUNDING_BOX.jpg
       :width: 300 
 
 #. **Do not** annotate products which are not recognisable completely or may not be present in the catalogue.
 
-   .. image:: NOT_COMPLETELY_VISIBLE.jpg
+   .. image:: docs/images/NOT_COMPLETELY_VISIBLE.jpg
       :width: 300
 
 #. **Annotate** products which have other products along with them or having other products on them, such as: 
@@ -29,17 +29,17 @@ This section includes guidelines to follow to make a decision on which products 
    #. Blanket, comforter on bed or chaise
    #. etc.
 
-   .. image:: PRODUCT_ON.jpg
+   .. image:: docs/images/PRODUCT_ON.jpg
       :width: 300 
 
 #. **Do not** annotate products which are obscured or have other objects/products blocking that product which makes the product hardly recognisable like below example:
 
-   .. image:: INCORRECT_BOUNDING_BOX_OBSCURED_PRODUCTS.jpg
+   .. image:: docs/images/INCORRECT_BOUNDING_BOX_OBSCURED_PRODUCTS.jpg
       :width: 300
 
 #. Top view images are to be **excluded** from the dataset. **Do not** include images which contain top view of products, unless those type of products are present in the catalogue. (Refer example below)
 
-   .. image:: TOP_VIEW_IMAGE_TO_EXCLUDE.jpg
+   .. image:: docs/images/TOP_VIEW_IMAGE_TO_EXCLUDE.jpg
       :width: 300
 
 
