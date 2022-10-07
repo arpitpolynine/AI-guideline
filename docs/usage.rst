@@ -9,6 +9,8 @@ Do's
    .. image:: images/CORRECT_BOUNDING_BOX.jpg
       :width: 600 
 
+#. Products that are easily recognizable or that are only 20% hidden or covered should be **annotated** and **included**.
+
 #. Annotate products which have other products along with them or having other products on them, such as: 
 
    #. Pillows on sofa, chair, bed
@@ -32,10 +34,12 @@ Don'ts
    .. image:: images/INCORRECT_BOUNDING_BOX_OBSCURED_PRODUCTS.jpg
       :width: 600
 
-#. Top view images are to be excluded from the dataset. Do not include images which contain top view of products, unless those type of products are present in the catalogue. (Refer example below)
+#. Top view or elevated angle images should be **excluded** from the dataset. **Do not** include images which contain top view or elevated angle of products. (Refer example below)
 
    .. image:: images/TOP_VIEW_IMAGE_TO_EXCLUDE.jpg
       :width: 600
+
+#. Back view images of products can be included if those products are recognisable completely.
 
 
 

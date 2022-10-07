@@ -17,7 +17,9 @@ This section includes guidelines to follow to make a decision on which products 
    .. image:: images/CORRECT_BOUNDING_BOX.jpg
       :width: 300 
 
-#. **Do not** annotate products which are not recognisable completely or may not be present in the catalogue.
+#. Products that are easily recognizable or that are only 20% hidden or covered should be **annotated** and **included**.
+
+#. **Do not** annotate products which are not recognisable completely.
 
    .. image:: images/NOT_COMPLETELY_VISIBLE.jpg
       :width: 300
@@ -37,10 +39,14 @@ This section includes guidelines to follow to make a decision on which products 
    .. image:: images/INCORRECT_BOUNDING_BOX_OBSCURED_PRODUCTS.jpg
       :width: 300
 
-#. Top view images are to be **excluded** from the dataset. **Do not** include images which contain top view of products, unless those type of products are present in the catalogue. (Refer example below)
+#. Top view or elevated angle images should be **excluded** from the dataset. **Do not** include images which contain top view or elevated angle of products. (Refer example below)
 
    .. image:: images/TOP_VIEW_IMAGE_TO_EXCLUDE.jpg
       :width: 300
+
+#. Back view images of products can be included if those products are recognisable completely.
+
+
 
 
 
